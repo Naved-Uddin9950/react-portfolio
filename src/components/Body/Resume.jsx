@@ -11,10 +11,10 @@ function Resume() {
 
   return (
     <div className='p-4'>
-      <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 bg-slate-800 text-white border-transparent'>Resume</h1>
+      <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 shadow-md'>Resume</h1>
 
-      <div className="max-w-4xl mx-auto p-6 bg-white shadow-md rounded-lg">
-      <button type="button" className='border rounded bg-blue-600 border-transparent py-1 px-3 mx-2 mb-4 hover:bg-blue-700 active:bg-blue-800' onClick={preview}>View Original</button>
+      <div className="max-w-4xl mx-auto p-6 rounded-lg border shadow-lg">
+      <button type="button" className='border rounded bg-blue-600 border-transparent shadow-md py-1 px-3 mx-2 mb-4 hover:bg-blue-700 active:bg-blue-800' onClick={preview}>View Original</button>
         <div className="text-center">
           <h1 className="text-3xl font-bold mb-2">Naved Uddin</h1>
           <p className="text-gray-700 mb-2">+91 7023673273 | naveduddin83@gmail.com</p>

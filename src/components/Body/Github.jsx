@@ -20,7 +20,7 @@ function Github() {
 
     return (
         <div className='p-4'>
-            <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 bg-slate-800 text-white border-transparent'>Github</h1>
+            <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 shadow-md'>Github</h1>
 
             {/* GitHub Profile */}
             <div>
@@ -29,7 +29,7 @@ function Github() {
                     <img
                         src={data.avatar_url}
                         alt="profile_image"
-                        className='w-60 border rounded-full border-transparent'
+                        className='w-60 border-4 border-white shadow-lg rounded-full'
                     />
 
                     <ul>

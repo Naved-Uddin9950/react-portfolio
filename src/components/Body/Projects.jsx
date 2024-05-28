@@ -4,7 +4,7 @@ import { Card } from '../../components';
 function Projects() {
   return (
     <div className='p-4'>
-      <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 bg-slate-800 text-white border-transparent'>Projects</h1>
+      <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 shadow-md'>Projects</h1>
 
       <div className='grid lg:grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-2'>
         <Card 
