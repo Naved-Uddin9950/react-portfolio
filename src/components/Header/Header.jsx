@@ -24,6 +24,11 @@ function Header() {
                     to='resume'
                     className={({isActive}) => `${isActive?'text-blue-500':'text-white'}`}
                 >Resume</NavLink>
+
+                <NavLink 
+                    to='github'
+                    className={({isActive}) => `${isActive?'text-blue-500':'text-white'}`}
+                >Github</NavLink>
             </nav>
         </div>
     )

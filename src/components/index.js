@@ -5,6 +5,8 @@ import Projects from './Body/Projects';
 import Contact from './Body/Contact';
 import Resume from './Body/Resume';
 import Card from './Layout/Card';
+import Github from './Body/Github';
+import Repo from './Layout/Repo';
 
 export { 
     Header, 
@@ -13,5 +15,7 @@ export {
     Projects,
     Contact,
     Resume,
-    Card
+    Card,
+    Github,
+    Repo
 };
