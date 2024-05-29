@@ -4,9 +4,9 @@ import { Card } from '../../components';
 function Projects() {
   return (
     <div className='p-4'>
-      <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 shadow-md'>Projects</h1>
+      <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 shadow-md dark:text-white dark:bg-gray-900 dark:border-transparent'>Projects</h1>
 
-      <div className='grid lg:grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-2'>
+      <div className='grid lg:grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-2 dark:text-white'>
         <Card 
           title='SeekSphere' 
           desc='A search engine built with NodeJs as backend and Google search API' 

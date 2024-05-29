@@ -8,7 +8,7 @@ function Card({
     image
 }) {
   return (
-    <div className='border rounded shadow-md'>
+    <div className='border rounded shadow-md dark:bg-gray-900 dark:border-transparent'>
         <h2 className='font-bold text-xl text-center bg-slate-800 text-white py-2'>{title}</h2>
         <img className='border h-max shadow-sm border-t-transparent border-x-transparent' src={image} />
         <p className='py-3 px-2'>{desc}</p>

@@ -20,16 +20,16 @@ function Github() {
 
     return (
         <div className='p-4'>
-            <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 shadow-md'>Github</h1>
+            <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 shadow-md dark:text-white dark:bg-gray-900 dark:border-transparent'>Github</h1>
 
             {/* GitHub Profile */}
             <div>
                 {/* Personal Data */}
-                <div className='flex flex-row flex-wrap items-center gap-8'>
+                <div className='flex flex-row flex-wrap items-center gap-8 dark:text-white'>
                     <img
                         src={data.avatar_url}
                         alt="profile_image"
-                        className='w-60 border-4 border-white shadow-lg rounded-full'
+                        className='w-60 border-4 border-white shadow-lg rounded-full dark:border-gray-900'
                     />
 
                     <ul>

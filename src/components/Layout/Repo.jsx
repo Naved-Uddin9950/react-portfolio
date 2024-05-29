@@ -6,7 +6,7 @@ function Repo({
     topics
 }) {
     return (
-        <div className='border rounded-xl py-2 px-4 shadow-lg'>
+        <div className='border rounded-xl py-2 px-4 shadow-lg dark:bg-gray-900 dark:text-white dark:border-transparent'>
             <h1 className='font-bold text-2xl text-center'>{name}</h1>
             <p>{desc}</p>
             <ul className='flex flex-row flex-wrap gap-2 pt-3'>

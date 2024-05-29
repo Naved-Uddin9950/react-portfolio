@@ -11,9 +11,9 @@ function Resume() {
 
   return (
     <div className='p-4'>
-      <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 shadow-md'>Resume</h1>
+      <h1 className='font-bold text-2xl border rounded text-center py-2 mb-6 shadow-md dark:text-white dark:bg-gray-900 dark:border-transparent dark:shadow-md'>Resume</h1>
 
-      <div className="max-w-4xl mx-auto p-6 rounded-lg border shadow-lg">
+      <div className="max-w-4xl mx-auto p-6 rounded-lg border shadow-lg dark:text-white dark:bg-gray-900 dark:border-transparent">
       <button type="button" className='border rounded bg-blue-600 border-transparent shadow-md py-1 px-3 mx-2 mb-4 hover:bg-blue-700 active:bg-blue-800' onClick={preview}>View Original</button>
         <div className="text-center">
           <h1 className="text-3xl font-bold mb-2">Naved Uddin</h1>

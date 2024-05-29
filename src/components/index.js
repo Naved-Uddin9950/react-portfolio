@@ -7,6 +7,7 @@ import Resume from './Body/Resume';
 import Card from './Layout/Card';
 import Github from './Body/Github';
 import Repo from './Layout/Repo';
+import Toggle from './Layout/Toggle';
 
 export { 
     Header, 
@@ -17,5 +18,6 @@ export {
     Resume,
     Card,
     Github,
-    Repo
+    Repo,
+    Toggle
 };
